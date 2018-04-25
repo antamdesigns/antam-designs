@@ -1,0 +1,74 @@
+﻿body {
+            font-family: sans-serif;
+            color: #293b70;
+            margin: 4em;
+            max-width: 810px;
+        }
+        fieldset {
+            border: 1px #293b70 solid;
+            border-radius: 4px;
+        }
+        legend {
+            text-align: center;
+        }
+        iframe {
+            width: 95%;
+            height: 95%;
+        }
+        button {
+            padding: 10px;
+            border: 4px #ecb612 solid;
+            border-radius: 5px;
+            background-color: #293b70;                                                  
+            color: #fff;
+            font-weight: bold;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        #addCaptions {
+    float: right;
+}
+
+#statusMessages {
+    color: #990000;
+    font-weight: bold;
+}
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            font-weight: bold;
+            padding: 20px;            
+            
+        }       
+        tr { 
+            border: solid;
+            border-width: 2px 0;
+            
+        }
+
+#videoTable {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-width: 250px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+    column-width: 250px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 10px;
+    color:darkblue;
+}
+
+
+                                                                   
+        
