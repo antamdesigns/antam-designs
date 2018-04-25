@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="Style/Layout.css" rel="stylesheet" />
+    <title>Video Library</title>
+</head>
+
+<body>
+    <h1>Add Captions to Brightcove Videos</h1>
+    <p>Select the videos you want to add captions to. Check the appropiate checkbox and click "Submit Request for Captions." Next open the VIA Captions page and go to Cart and your order will be there.  Just follow the process to complete your order.</p>
+    <p><button id="addCaptions">Submit Request for Captions</button></p>
+    <p><button id="getPreviousVideos">Get Previous 20 Videos</button>
+    <button id="getNextVideos">Get Next 20 Videos</button></p>
+    <p><span id="statusMessages"></span></p>
+    <table id="videoTable">
+        <thead>
+            <tr>
+                <th>Processing Time</th>
+                <th>Video Image</th>
+                <th>Video Summary</th>
+            </tr>
+        </thead>
+        <tbody id="videoTableBody" style="text-align:center"></tbody>
+    </table>
+    <script src="videos.js"></script>
+</body>
+</html>
